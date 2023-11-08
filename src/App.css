@@ -1,0 +1,30 @@
+.app{
+  background-color: lightslategrey;
+  min-height: 100vh;
+
+}
+.app__form{
+    display: flex;
+    justify-content: center;
+
+}
+.app__input{
+    border: none;
+    padding: 0.3em 1em;
+    border-radius: 1em 1em;
+}
+.app__btn{
+    border: none;
+    width: 7em;
+    background-color: greenyellow;
+    padding: 1em;
+    border-radius: 1em 1em ;
+    color: black;
+    font-weight: 700;
+}
+.appp__clas-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+}

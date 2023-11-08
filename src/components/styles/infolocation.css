@@ -1,0 +1,34 @@
+.location{
+    width: 100%;
+    max-width: 24EM;
+    background-color: darkslategray;
+    padding: 1em 1.5em ;
+    border-radius: 1em;
+    box-shadow: 1em 0.6em o.6em black;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.location__name{
+    text-align: center;
+    color: chartreuse;
+}
+.location__info{
+    display: flex;
+    gap: 1em;   
+}
+.location__item{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    gap: 0.2em;
+}
+.location__lavel{
+    color: white;
+    font-weight: 500;
+}
+.location__value{
+
+    font-weight: 300;
+}
