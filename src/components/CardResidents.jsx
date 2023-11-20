@@ -23,7 +23,7 @@ const CardResidents = ({url}) => {
       </header>
       <article className="resident__body">
         <h3 className="resident__name">{resident?.name}</h3>
-        <hr className="resident__separador"/>
+        <hr className="resident__separator"/>
         <ul className="resident__state">
           <li className="resident-state-leves"><span>species: <span></span>{resident?.species}</span></li>
           <li className="resident-state-leves"><span>origin: <span></span>{resident?.origin.name}</span></li>

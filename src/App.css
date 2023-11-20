@@ -15,6 +15,8 @@
 
 }
 .app__input{
+    background-color: #084851;
+    color: yellowgreen;
     border: none;
     padding: 0.3em 1em;
     border-radius: 1em 1em;
@@ -22,7 +24,7 @@
 .app__btn{
     border: none;
     width: 8em;
-    background-color: greenyellow;
+    background-color: yellowgreen;
     padding: 1em;
     border-radius: 8em ;
     color: black;
