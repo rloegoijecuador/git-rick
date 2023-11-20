@@ -29,7 +29,7 @@ useEffect(()=>{
     <div className='app'>
       <h1 className='app__title'>rick and morty</h1>
       <form  className='app__form' onSubmit={handleLocation}>
-        <input ref={inputlocation} type="text" />
+        <input className='app__input' ref={inputlocation} type="text" />
         <button className='app__btn'>search</button>
       </form>
       {

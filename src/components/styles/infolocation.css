@@ -12,7 +12,7 @@
 }
 .location__name{
     text-align: center;
-    color: chartreuse;
+    color: black;
 }
 .location__info{
     display: flex;

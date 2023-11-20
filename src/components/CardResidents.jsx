@@ -17,7 +17,7 @@ const CardResidents = ({url}) => {
       <header className="resident__headre">
         <img  className="resident__image" src={resident?.image} alt="" />
         <div>
-          <div className={`resident__satus-circle ${resident?.estatus}`}></div>
+          <div className={`resident__status-circle ${resident?.estatus}`}></div>
           <span className="resident__status-value">{resident?.estatus}</span>
         </div>
       </header>
